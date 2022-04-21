@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes spin {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+svg{ width: 2em ; height: 2em; animation: spin 1s ease infinite; }
