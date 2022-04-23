@@ -44,3 +44,10 @@
 }
 
 svg{ width: 2em ; height: 2em; animation: spin 1s ease infinite; }
+
+@keyframes fadeIn{
+  to{
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
